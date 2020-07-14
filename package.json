@@ -12,7 +12,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "start-app": "cd app && venv/Scripts/flask run",
+    "start-app": "cd app && flask run",
+    "start-app-win": "cd app && venv/Scripts/flask run",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
