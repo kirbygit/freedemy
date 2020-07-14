@@ -37,3 +37,22 @@ On Terminal 2:
 yarn start-app
 ```
 **Note**: venv should be activated when running the app
+
+### Draft Schema
+Collections:
+1. Books:
+   | Property      | Type     | Description                            |
+   | ------------- | -------- | -------------------------------------- |
+   | name          | String   | name of the event                      |
+   | description   | String   | event details                          |
+   | image         | File     | image of event that organizer posts    |
+
+2. Articles:
+   | Property      | Type     | Description                            |
+   | ------------- | -------- | -------------------------------------- |
+   | name          | String   | name of the event                      |
+   | description   | String   | event details                          |
+   | image         | File     | image of event that organizer posts    |
+ 
+3. Courses
+
